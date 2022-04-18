@@ -1,0 +1,4 @@
+FROM ubuntu:20.04
+RUN apt update > /dev/null; apt install -y curl > /dev/null
+COPY ex1_8.sh .
+CMD ./ex1_8.sh
